@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yash Jatav",
   "license": "ISC",
   "description": "A real-time chat application backend built with Node.js, Express, and Socket.io, enabling instant messaging between users.",
   "dependencies": {
