@@ -5,8 +5,7 @@ const Message = require("../models/message.model");
 async function initializeSocket(server) {
   const io = new Server(server, {
     cors: {
-      origin: "https://chit-chat-app-rho.vercel.app",
-      methods: ["GET", "POST"],
+      origin: "http://localhost:3000",
     },
   });
 

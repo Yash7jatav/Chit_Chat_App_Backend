@@ -10,13 +10,7 @@ const userRoutes = require("./routes/user.route");
 const app = express();
 
 app.use(express.json());
-app.use(
-  cors({
-    origin: "https://chit-chat-app-rho.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 const server = http.createServer(app);
 
